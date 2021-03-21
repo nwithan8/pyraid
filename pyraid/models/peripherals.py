@@ -1,4 +1,4 @@
-from unRAIDapi.models.base import BaseObject
+from pyraid.models.base import BaseObject
 
 
 class PCI(BaseObject):

@@ -1,8 +1,8 @@
 from typing import Union, List
 
-from unRAIDapi import utils
-from unRAIDapi.models.server import Server
-from unRAIDapi.request_handler import RequestHandler
+from pyraid import utils
+from pyraid.models.server import Server
+from pyraid.request_handler import RequestHandler
 
 
 class ServerConnectionDetails:

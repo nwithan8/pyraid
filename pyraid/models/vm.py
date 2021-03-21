@@ -1,7 +1,7 @@
 from typing import List
 
-from unRAIDapi.models.base import BaseObject
-from unRAIDapi.models.peripherals import USB, PCI
+from pyraid.models.base import BaseObject
+from pyraid.models.peripherals import USB, PCI
 
 
 class VMNIC(BaseObject):

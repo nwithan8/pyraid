@@ -1,7 +1,7 @@
-from unRAIDapi.models.base import BaseObject
-from unRAIDapi.models.docker import Docker
-from unRAIDapi.models.peripherals import PCI, USB
-from unRAIDapi.models.vm import VMManager
+from pyraid.models.base import BaseObject
+from pyraid.models.docker import Docker
+from pyraid.models.peripherals import PCI, USB
+from pyraid.models.vm import VMManager
 
 
 class Server(BaseObject):
