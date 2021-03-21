@@ -18,7 +18,7 @@ class RequestHandler:
         if uri.startswith("/"):
             uri = uri[1:]
         url = f"{self._base}/{uri}"
-        res = requests.post(url, params=params, data=data)
+        res = requests.post(url, params=params, data=data, timeout=30)
         if res:
             return res.json()
         return {}
