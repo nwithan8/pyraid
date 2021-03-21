@@ -141,7 +141,7 @@ class VM(BaseObject):
             'id': self.id,
             'action': action,
             'server': self._api._server_creds.ip_address,
-            'auth': self._api._server_cred._creds
+            'auth': self._api._server_creds._creds
         }
         json_data = self._api._request_handler.get_json_post(uri='api/vmStatus', data=data)
         return json_data.get('message', {}).get('success')
